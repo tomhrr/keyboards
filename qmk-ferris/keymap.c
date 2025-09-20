@@ -65,11 +65,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
     [3] = LAYOUT(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_NO, KC_NO, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_NO,
+      KC_NO, KC_NO, XXXXXXX, XXXXXXX, XXXXXXX,                        MS_LEFT, MS_DOWN, MS_UP, MS_RGHT, KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_NO,  KC_NO,  KC_NO, XXXXXXX, XXXXXXX,                      XXXXXXX, KC_PGDN, KC_PGUP, KC_NO, KC_NO,
+      KC_NO,  KC_NO,  MS_BTN1, MS_BTN2, XXXXXXX,                      XXXXXXX, KC_PGDN, KC_PGUP, KC_NO, KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_NO, KC_NO, KC_NO, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      KC_NO, KC_NO, KC_NO, XXXXXXX, XXXXXXX,                      XXXXXXX, MS_WHLD, MS_WHLU, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______, _______,   _______, _______
                                       //`--------------------------'  `--------------------------'
