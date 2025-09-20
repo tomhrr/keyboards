@@ -60,8 +60,12 @@ QMK Ferris keymap.
                      '-------------' '-------------'
 ```
 
- - All of the blanks on the default layer have no effect, while all of
-   the blanks on the raise and lower layers pass through to the
-   default layer.
- - The shift behaviour has been removed for keys where the shifted key is
-   available separately (e.g. comma and less-than).
+ - All non-thumb keys on the default layer require tapping in order to
+   type the letter.  Home row mods are enabled for S, D, and F, which
+   are Alt, Ctrl, and Shift respectively, which is mirrored for J, K,
+   and L.
+ - The blanks on the raise and lower layers pass through to the
+   default layer, while the blanks on the raise-2 layer have no
+   effect.
+ - The shift behaviour has been removed for keys where the shifted key
+   is available separately (e.g. comma and less-than).
