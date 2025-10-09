@@ -26,9 +26,9 @@ QMK Ferris keymap.
 |------+------+------+------+------| |------+------+------+------+------|
 |   <  |   >  | Esc  | Tab  |   '  | |   "  | Bksp |Enter |   [  |   ]  |
 |------+------+------+------+------| |------+------+------+------+------|
-|      |      |   -  |   _  |      | |      |   =  |   +  |      |      |
+|      |   \  |   -  |   _  |   ?  | |   :  |   =  |   +  |   {  |   }  |
 '------+------+------+------+------| |------+------+------+------+------'
-                     |      | CW   | |      |      |
+                     | Ct A | CW   | |      |      |
                      '-------------' '-------------'
 ```
 
@@ -36,11 +36,11 @@ QMK Ferris keymap.
 
 ```
 .----------------------------------. .----------------------------------.
+|   !  |   @  |   #  |   $  |   %  | |   ^  |   &  |   *  |   (  |   )  |
+|------+------+------+------+------| |------+------+------+------+------|
+|      |   `  |   ~  |   |  |        |   ←  |   ↓  |   ↑  |   →  |      |
+|------+------+------+------+------| |------+------+------+------+------|
 |  F1  |  F2  |  F3  |  F4  |  F5  | |  F6  |  F7  |  F8  |  F9  | F10  |
-|------+------+------+------+------| |------+------+------+------+------|
-|   |  |   `  |   ~  |      |        |   ←  |   ↓  |   ↑  |   →  |      |
-|------+------+------+------+------| |------+------+------+------+------|
-|      |      |      |      |      | |      |      |      |      |      |
 '------+------+------+------+------| |------+------+------+------+------'
                      |      |      | |      |      |
                      '-------------' '-------------'
@@ -54,18 +54,18 @@ QMK Ferris keymap.
 |------+------+------+------+------| |------+------+------+------+------|
 |      |      | MB 1 | MB 2 |        |      | PgDn | PgUp |      |      |
 |------+------+------+------+------| |------+------+------+------+------|
-|      |      |      |      |      | |      | MW D | MW U |      |      |
+|      |      |      |      |      | | MW L | MW D | MW U | MW R |      |
 '------+------+------+------+------| |------+------+------+------+------'
                      |      |      | |      |      |
                      '-------------' '-------------'
 ```
 
+ - Home row mods are enabled for S, D, and F, which are Alt, Ctrl, and
+   Shift respectively, which is mirrored for J, K, and L.
  - All non-thumb keys on the default layer require tapping in order to
-   type the letter.  Home row mods are enabled for S, D, and F, which
-   are Alt, Ctrl, and Shift respectively, which is mirrored for J, K,
-   and L.
- - The blanks on the raise and lower layers pass through to the
-   default layer, while the blanks on the raise-2 layer have no
-   effect.
+   type the letter.  This is for the sake of consistency with the HRM
+   keys.
+ - The blank thumb keys pass through to the default layer on each
+   layer, while the remaining blank keys have no effect.
  - The shift behaviour has been removed for keys where the shifted key
-   is available separately (e.g. comma and less-than).
+   is available separately (i.e. all of the non-letter keys).
