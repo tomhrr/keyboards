@@ -82,11 +82,21 @@ getting them, comments on setup/use, and things to watch out for.
    the J02 tip (curved) was very helpful with that part of it.
  - Putting 1.5mm of neoprene foam in the bottom of the case dampened
    the noise sufficiently that a desk mat was not needed anymore.
- - Switching to a 1U spacebar seemed like it would take some getting
+ - Switching to a 1U space key seemed like it would take some getting
    used to, but it turned out to be very easy to get the hang of it.
+   In hindsight, anything larger now seems like an obvious and
+   substantial layout inefficiency, particularly given how easy it is
+   to use thumbs as opposed to pinkies.
  - There was a significant learning curve with the different key
    positioning, QMK layers, and so on.  It took about a month before
    WPM returned to a comfortable/tolerable level.
+ - The Keychron V4 had Cherry keycaps, while this one has XDA keycaps.
+   I found the XDA keycaps more comfortable, probably due to previous
+   long experience with flat keyboards, in that it felt like less
+   finger movement was required to move from one key to another when
+   compared with the more sculpted Cherry keys.  The uniformity of the
+   keys is also likely less of an issue when using a keyboard where
+   your hands stay in one place the whole time.
  - I personally found the angles required for using it very
    uncomfortable after a couple of months, particularly on the left
    hand.  Although this is partly due to a preexisting wrist injury on
@@ -118,6 +128,8 @@ getting them, comments on setup/use, and things to watch out for.
    tenting, the Ugreen magsafe stands (in the picture) were far and
    away the best tenting solution I tried.
  - With tenting in place, it was far more comfortable than the Contra.
+ - At least for a wired version of the keyboard, the OLEDs appear to
+   be present for the novelty factor only.
 
 #### Ferris Sweep
 
@@ -152,5 +164,14 @@ getting them, comments on setup/use, and things to watch out for.
  - Having only two thumb keys on each hand meant that home row mods
    were a big help.  I'd avoided these previously because I'd assumed
    that their use always involves delay, but QMK's permissive hold
-   solves this problem, and makes it much more tolerable.
+   solves this problem.  With that in place, they are a clear
+   improvement over standalone keys.
+ - The other issue with HRM was the inconsistency in behaviour between
+   the HRM keys and the other keys on the default layer, in that the
+   HRM keys took effect on release, while the others took effect on
+   tap.  Simply making all keys on the default layer take effect on
+   release 'solved' this problem, in that the consistency helped quite
+   a bit with getting used to the different typing style required.
+   This still took a while before it became comfortable, though
+   (probably about a month).
  - The Pelican 1020 is a great carrying case for this keyboard.
