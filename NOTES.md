@@ -20,12 +20,12 @@ getting them, comments on setup/use, and things to watch out for.
 
 #### Contra
 
-![Screenshot](images/contra.jpg)
+<img src="images/contra.jpg" width="50%" />
 
 #### Corne
 
-![Screenshot](images/corne.jpg)
+<img src="images/corne.jpg" width="50%" />
 
 #### Ferris Sweep
 
-![Screenshot](images/ferris.jpg)
+<img src="images/ferris.jpg" width="50%" />
