@@ -16,7 +16,7 @@ getting them, comments on setup/use, and things to watch out for.
 
 #### Keychron V4
 
-![Screenshot](images/keychron-v4.jpg)
+<img src="images/keychron-v4.jpg" width="50%" />
 
 #### Contra
 
