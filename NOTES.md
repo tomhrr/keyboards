@@ -3,22 +3,16 @@
 Some notes on keyboards I've used, including the motivations for
 getting them, comments on setup/use, and things to watch out for.
 
- * [Summary](#summary)
- * [Keyboards](#keyboards)
-    * [Keychron V4](#keychron-v4)
-    * [Contra](#contra)
-    * [Corne](#corne)
-    * [Ferris Sweep](#ferris-sweep)
+ * [Keychron V4](#keychron-v4)
+ * [Contra](#contra)
+ * [Corne](#corne)
+ * [Ferris Sweep](#ferris-sweep)
 
-### Summary
-
-### Keyboards
-
-#### Keychron V4 (60%)
+### Keychron V4 (60%)
 
 <img src="images/keychron-v4.jpg" width="50%" />
 
-##### Motivations
+#### Motivations
 
  - I'd been using Apple Magic keyboards for a long time, but the newer
    iterations (circa early 2024) seemed to be having problems more
@@ -32,7 +26,7 @@ getting them, comments on setup/use, and things to watch out for.
    look at the keyboard, but I was not a genuine touch-typist, and I
    also used the arrow keys all the time.
 
-##### Setup/use
+#### Setup/use
 
  - Setup was trivial.  The most time-consuming part of the process was
    finding a silent switch that didn't feel terrible.  I ended up
@@ -60,11 +54,11 @@ getting them, comments on setup/use, and things to watch out for.
    they were in place did I realise that I was looking at the keyboard
    more often than I had thought.
 
-#### Contra
+### Contra
 
 <img src="images/contra.jpg" width="50%" />
 
-##### Motivations
+#### Motivations
 
  - The stabiliser noise with the Keychron V4 was not ideal, and
    spending more time on trying to solve that (e.g. by buying
@@ -74,7 +68,7 @@ getting them, comments on setup/use, and things to watch out for.
    slightly smaller keyboard that got rid of the residual hand
    movement (for some of the middle number keys) was appealing.
 
-##### Setup/use
+#### Setup/use
 
  - I had no soldering experience before buying this keyboard.  At
    least with a Pinecil and 63/37 solder, the soldering process was
@@ -103,18 +97,18 @@ getting them, comments on setup/use, and things to watch out for.
    that hand, printing out the layout and trying it first would have
    been a good idea.
 
-#### Corne
+### Corne
 
 <img src="images/corne.jpg" width="50%" />
 
-##### Motivations
+#### Motivations
 
  - The angles required for using the Contra were problematic for me,
    and the Corne appeared to solve that problem, while preserving all
    the other positives of the Contra (i.e. no stabilisers, fewer
    keys).
 
-##### Setup/use
+#### Setup/use
 
  - Soldering the diodes was tricky, because they are so small, and
    accounted for most of the time spent assembling the keyboard.  By
@@ -131,11 +125,11 @@ getting them, comments on setup/use, and things to watch out for.
  - At least for a wired version of the keyboard, the OLEDs appear to
    be present for the novelty factor only.
 
-#### Ferris Sweep
+### Ferris Sweep
 
 <img src="images/ferris.jpg" width="50%" />
 
-##### Motivations
+#### Motivations
 
  - While the Corne worked quite well, I ended up having to stop using
    the outer column in order to address wrist pain, and the travel
@@ -144,18 +138,22 @@ getting them, comments on setup/use, and things to watch out for.
    to a smaller, low-profile keyboard looked like a good option for
    addressing those problems.
 
-##### Setup/use
+#### Setup/use
 
  - Because there are so few keys, there are no diodes, so the
    soldering process here was very straightforward.
  - Up until this point, I'd been using the TTC Silent Bluish Whites,
-   but there wasn't a similar option available in Choc V1.  I ended up
-   getting the Ambient Twilights, and while they felt a little funny
-   at first, it was easy enough to get used to them, and they feel
-   great now.
- - The reduced travel distance and key spacing was a big benefit in
-   terms of typing comfort.  The extra stagger on the pinky was
-   helpful as well.
+   but there wasn't a similar silent tactile option available in Choc
+   V1.  The most similar option was the Ambient Twilight, which I was
+   skeptical about, because I'd found linear MX switches very
+   unpleasant to use, due to the lack of feedback and the long travel
+   distance.  However, although the Twilights took some getting used
+   to, they feel totally fine now.  In particular, the reduced travel
+   distance helped quite a bit with both of the problems I'd had with
+   linear MX switches.
+ - More generally, the reduced travel distance and key spacing was a
+   big benefit in terms of typing comfort.  The extra stagger on the
+   pinky was helpful as well.
  - It's much smaller than the Corne, which was already pretty small,
    which helps with carrying it around.  It also helps with the
    tenting stands, because the magnetic ring can be placed more
